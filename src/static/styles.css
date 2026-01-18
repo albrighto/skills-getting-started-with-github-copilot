@@ -91,10 +91,22 @@ section h3 {
   margin: 0.25rem 0 0 1.2rem;
   padding-left: 1rem;
   color: #333;
+  list-style-type: none;
 }
 
 .activity-card .participants li {
   margin: 0.15rem 0;
+}
+
+.activity-card .participants .delete-participant {
+  color: red;
+  cursor: pointer;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.activity-card .participants .delete-participant:hover {
+  color: darkred;
 }
 
 .activity-card .participants p {
